@@ -7,3 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## 0.0.1
 ### Added
 - Initial commit with mostly used items.
+
+## 0.0.4
+### Added
+- Added new Filter parameters 'after' and 'before'.
