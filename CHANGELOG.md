@@ -11,3 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## 0.0.4
 ### Added
 - Added new Filter parameters 'after' and 'before'.
+
+## 0.0.5
+### Changed
+- Changed Money 'amount' property type from number to string.
