@@ -2,6 +2,13 @@
 
 A set of common RAML Types, Traits and other stuff.
 
+### Usage
+```yaml
+uses:
+  Paysera: https://raw.githubusercontent.com/paysera/lib-raml-common/{version}/rest.raml
+```
+Replace `{version}` with latest tag.
+
 ### Libraries
 
 #### rest.raml
