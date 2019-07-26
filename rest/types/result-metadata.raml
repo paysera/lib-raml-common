@@ -25,3 +25,18 @@ properties:
     required: false
     description: Order results by some field
     type: string
+  has_next:
+    required: false
+    description: |
+        When order_direction=asc, tells whether there are other records whose field referenced in order_by is greater.
+        When order_direction=desc, tells whether there are other records whose field referenced in order_by is lower.
+    type: boolean
+  has_previous:
+    required: false
+    description: |
+        When order_direction=asc, tells whether there are other records whose field referenced in order_by is lower.
+        When order_direction=desc, tells whether there are other records whose field referenced in order_by is greater.
+    type: boolean
+  cursors:
+    required: false
+    type: Cursors
