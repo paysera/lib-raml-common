@@ -14,6 +14,7 @@ Replace `{version}` with latest tag.
 #### rest.raml
 Provides mostly used items when building RESTful APIs 
 * Types:
+  * `File` - common used properties for file (name, size, content, mime type).
   * `Money` - holds amount ant currency.
   * `Result` - used for pagination, holds `items` - list of returned objects. Ofter used together with
   * `ResultMetadata` - gives info about `items` count, page number and other pagination related stuff.
