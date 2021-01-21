@@ -22,4 +22,5 @@ Provides mostly used items when building RESTful APIs
   * `Filter` - provides SQL-like `Result` filtering.
 * Annotation Types
   * `datetimeTimestamp` - used to mark `integer` property as DateTime instance
-  * `enitityType` - user to mark Type recognisable as Entity
+  * `enitityType` - used to mark Type recognisable as Entity
+  * `streamResponse` - used to mark Response recognisable as Stream
